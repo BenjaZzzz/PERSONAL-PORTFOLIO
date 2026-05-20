@@ -17,6 +17,7 @@ export const translations = {
 
       cta: "Explorar proyectos",
       contact: "Contáctame",
+      cv: "Descargar CV",
     },
 
     about: {
@@ -115,6 +116,7 @@ export const translations = {
 
       cta: "Explore projects",
       contact: "Contact me",
+      cv: "Download CV",
     },
 
     about: {
