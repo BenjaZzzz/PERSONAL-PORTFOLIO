@@ -1,16 +1,8 @@
 import { IconType } from "react-icons";
 
-import {
-  FaJava,
-  FaReact,
-  FaGitAlt,
-} from "react-icons/fa6";
+import { FaJava, FaReact, FaGitAlt, FaAws } from "react-icons/fa6";
 
-import {
-  FaCss3Alt,
-  FaDocker,
-  FaGithub,
-} from "react-icons/fa";
+import { FaCss3Alt, FaDocker, FaGithub } from "react-icons/fa";
 
 import { TbBrandCSharp } from "react-icons/tb";
 
@@ -21,8 +13,6 @@ import {
   SiTailwindcss,
   SiBootstrap,
   SiMysql,
-  SiThymeleaf,
-  SiVite,
   SiDotnet,
   SiPython,
   SiJavascript,
@@ -32,6 +22,15 @@ import {
   SiFastapi,
   SiInsomnia,
   SiMongodb,
+  SiAngular,
+  SiIonic,
+  SiFirebase,
+  SiVercel,
+  SiRender,
+  SiRailway,
+  SiGithubactions,
+  SiLinux,
+  SiSwagger,
 } from "react-icons/si";
 
 type Technology = {
@@ -78,7 +77,7 @@ export const techCategories: TechCategory[] = [
       {
         name: "Next.js",
         icon: SiNextdotjs,
-        color: "#ffffff",
+        color: "#00000",
       },
       {
         name: "Tailwind CSS",
@@ -91,9 +90,21 @@ export const techCategories: TechCategory[] = [
         color: "#7952b3",
       },
       {
-        name: "Vite",
-        icon: SiVite,
-        color: "#646cff",
+        name: "Angular",
+        icon: SiAngular,
+        color: "#dd0031",
+      },
+    ],
+  },
+
+  {
+    title: "Mobile",
+
+    technologies: [
+      {
+        name: "Ionic",
+        icon: SiIonic,
+        color: "#3880ff",
       },
     ],
   },
@@ -111,11 +122,6 @@ export const techCategories: TechCategory[] = [
         name: "Spring Boot",
         icon: SiSpringboot,
         color: "#6db33f",
-      },
-      {
-        name: "Thymeleaf",
-        icon: SiThymeleaf,
-        color: "#005f0f",
       },
       {
         name: "C#",
@@ -163,6 +169,53 @@ export const techCategories: TechCategory[] = [
   },
 
   {
+  title: "Cloud & DevOps",
+
+  technologies: [
+    {
+      name: "AWS",
+      icon: FaAws,
+      color: "#ff9900",
+    },
+    {
+      name: "Docker",
+      icon: FaDocker,
+      color: "#2496ed",
+    },
+    {
+      name: "Firebase",
+      icon: SiFirebase,
+      color: "#ffca28",
+    },
+    {
+      name: "Vercel",
+      icon: SiVercel,
+      color: "#00000",
+    },
+    {
+      name: "Railway",
+      icon: SiRailway,
+      color: "#00000",
+    },
+    {
+      name: "Render",
+      icon: SiRender,
+      color: "#46e3b7",
+    },
+    {
+      name: "GitHub Actions",
+      icon: SiGithubactions,
+      color: "#2088ff",
+    },
+    {
+      name: "Linux",
+      icon: SiLinux,
+      color: "#000000",
+    },
+  ],
+},
+
+  {
     title: "Tools",
 
     technologies: [
@@ -174,12 +227,7 @@ export const techCategories: TechCategory[] = [
       {
         name: "GitHub",
         icon: FaGithub,
-        color: "#f5f5f5",
-      },
-      {
-        name: "Docker",
-        icon: FaDocker,
-        color: "#2496ed",
+        color: "#00000",
       },
       {
         name: "Postman",
@@ -190,6 +238,11 @@ export const techCategories: TechCategory[] = [
         name: "Insomnia",
         icon: SiInsomnia,
         color: "#4000bf",
+      },
+      {
+        name: "Swagger",
+        icon: SiSwagger,
+        color: "#85ea2d",
       },
     ],
   },
